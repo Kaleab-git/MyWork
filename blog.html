@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets\css\MyWorks.css">
+    <title>Kaleab G. /Blog</title>
+
+</head>
+<body>
+    <!-- <p style="color: aliceblue;">This is inline CSS</p> -->
+
+    <header>
+<nav>
+<ul>
+    <li><a href="Question1.html">Question1</a></li>
+    <li><a href="Question2.html">Question2</a></li>
+    <li><a href="Question3.html">Question3</a></li>
+    <li><a href="blog.html">blog</a></li>
+    <li><a href="NGallery.html">Gallery</a></li>
+</ul>
+<div id="content"></div>
+</div>
+</nav>
+
+    </header>
+    <section class="firstS">
+            <article>
+                <p class="title">It does matter to use relative size!</p>
+                <p>Yes, it does matter	. Relative length units are ways of sizing items and elements relative to something else, perhaps the size of the parent element, or even the size of the viewport. The benefit of using relative units is that with neet design we can achieve so that the size of text or other elements scale relative to everything else on the page. CSS offers a range of relative length units including, but not limited to, em, ex ch, rem, lh, vw, vh, vmin, vmax. 
+                    Contrary to relative length units are the absolute length units, which are not relative to anything else and are generally considered to always be the same size. Absolute length Units were perfect when people browsed the internet on a 1024px/1280px screen. Nowadays though, with the appearance of responsive design, we had to support a lot more devices with different parameters, so we needed more flexible units named relative units. 
+                    A relative unit is based on its context and other external factors (separate property), so it is harder to work with. But the main advantage of the relative units is you can build your site or app for everybody, and you can also manage it efficiently. People visiting that page can resize the page to their own preference. Different devices with different screen sizes can view the same content. This by extension means that browsers can easily zoom without having any effect on the display of contents and items blocking each other and other problems. And so this flexibility is the main reason to use relative sizing.
+                    </p>
+               
+                <p class="date" >March 18, 2020</p>
+        
+    
+        </article>
+    </section>
+    <section>
+            <article>
+                <p class="title">Pixel as a static value</p>
+                <p> First off, pixel (px) is a static value. This is an OS-independent and cross-browser way of literally telling the browsers to render the letters at exactly the number of pixels in height that you specified. The results may vary slightly across browsers, as they may use different algorithms to achieve a similar effect. However, a pixel is 1/96 of a inch (0.2645 mm). Therefore, the default 16px means 16 x 1/96 = 0.1666 inch. Since px is absolute, it doesn’t change with respect to other changes. Also, px is absolute means 1px is a fixed value, (let’s assume it to be p) meaning that default value would be 16 p. Therefore 1p would equal the default value divided by 16. 200px means default value divided by 16 times 200, hence 200p, hence 200px. Basically it's 184px more, which is equivalent to 1.91666 more inches than the default value.
+                    Ideally, the browser interprets the pixel values equally, given that the resolution of the screen is the same. Rendering pixel-sized elements should output the same whether it’s chrome, firefox, or, safari. The only difference should come if one is rendered on a 1920x1080 screen while the other is rendered on 1366x768 or any other resolution, and that happens regardless of the browser.
+                    </p>
+                
+                <p class="date" >March 19, 2020</p>
+        
+    
+        </article>
+    </section>
+    <section>
+            <article>
+                <p class="title">The New possibilities brought forth by CSS3</p>
+                <p> <b>CSS3 Included New Properties </b> <br>
+                    Many newer properties include properties related with graphics. Properties such as border-radius, box-shadow have been around since the initial versions of css3. Others, like flexbox or even CSS Grid, are newer styles that are still often considered CSS3 additions.
+                     <br><br>  <b>Multiple Background Images</b> <br>
+                    Using the background-image, background-position, and background-repeat styles, you can specify multiple background images to be layered on top of one another in the box.
+                       <br><br>  <b>New Selectors </b>  <br>
+                    Css3 offers new selectors as well as new combinators. <br>
+                    The following are new attribute selectors: <br>
+                    <ol>
+                   <li> Attribute beginning matches exactly:</li>
+                    element[foo^="bar"]
+                    The element has an attribute called foo that begins with "bar" e.g.
+                   <li> Attribute ending matches exactly:</li>
+                    element[foo$="bar"]
+                    The element has an attribute called foo that ends with "bar" e.g.
+                    <li> Attribute contains the match:</li>
+                    element[foo*="bar"]
+                    The element has an attribute called foo that contains the string "bar."
+                    </ol>
+                  <br><b>  New pseudo-classes have been introduced:</b> <br>
+                    16 new pseudo-classes have been introduced:
+                    
+                    :root <br>
+                    The root element of the document.<br>
+                    :nth-child(n) <br>
+                    Use this to match exact child elements or use variables to get alternating matches.<br>
+                    :nth-last-child(n)<br>
+                    Match exact child elements counting up from the last one.<br>
+                    :nth-of-type(n)<br>
+                    Match sibling elements with the same name before it in the document tree.<br>
+                    :nth-last-of-type(n)<br>
+                    Match sibling elements with the same name counting up from the bottom.<br>
+                    :last-child<br>
+                    Match the last child element of the parent.<br>
+                    :first-of-type<br>
+                    Match the first sibling element of that type.<br>
+                    :last-of-type<br>
+                    Match the last sibling element of that type.<br>
+                    :only-child<br>
+                    Match the element that is the only child of its parent.<br>
+                    :only-of-type<br>
+                    Match the element that is the only one of its type.<br>
+                    :empty<br>
+                    Match the element that has no children (including text nodes).<br>
+                    :target<br>
+                    Match an element that is the target of the referring URI.<br>
+                    :enabled<br>
+                    Match the element when it's enabled.<br>
+                    :disabled<br>
+                    Match the element when it's disabled.<br>
+                    :checked<br>
+                    Match the element when it's checked (radio button or checkbox).<br>
+                    :not(s)<br>
+                    Match when the element does not match the simple selectors.<br>
+                    <br>
+                   <b>New Background Style Properties</b> <br>
+                    There are also some new background properties in CSS3: <br>
+                   <br><b> background-clip</b> <br>
+                    This property defines how the background image should be clipped. The default is the border box, but it can be changed to the padding box or the content box.
+                  <br> <b>background-origin</b> <br>
+                    This property determines whether the background should be placed in the padding box, the border box, or the content box.
+                  <br> <b> background-size </b> <br>
+                    This property indicates the size of the background image. It allows you to stretch smaller images to fit the page.
+                  <br><br> <b>Changes to Existing Background Style Properties</b> <br>
+                    There are also a few changes to existing background style properties:
+                    <br>
+      <b> background-repeat</b> <br>
+                    There are two new values for this property—space and round. Space spaces the tiled image evenly within the box without being clipped. Round rescales the background image so that it will tile a whole number of times in the box.
+                  <br> <b> background-attachment</b><br>
+                    A new value "local" is added so that the background will scroll with the element's content when that element has a scroll bar.
+                    The background shorthand property adds in the size and origin properties.
+                    <br><br>
+                   <br><b>CSS3 Border Properties</b> <br>
+                    In CSS3, borders can be the styles we're used to (solid, double, dashed, etc.) or they can be an image. Plus, CSS3 supports rounded corners. Border images are interesting because you create an image of all four borders and then tell the CSS how to apply that image to your borders.
+                    
+                  <br> <b> New Border Style Properties</b>br
+                    There are some new border properties in CSS3: <br>
+                    
+                    <br> <b> Border-radius</b> <br>
+                    Border-top-right-radius, border-bottom-right-radius, border-bottom-left-radius, border-top-left-radius
+                    These properties allow you to create rounded corners on your borders.
+                    <br> <b>  Border-image-source </b> <br>
+                    Specifies the image source file to be used instead of border styles already defined.
+                    <br>   <b> Border-image-slice </b> <br>
+                    Represents the inward offsets from the border image edges.
+                    <br>   <b>  Border-image-width </b> <br>
+                    Defines the value of the width for your border image.
+                    <br>   <b> Border-image-outset </b> <br>
+                    Specifies the amount that the border image area extends beyond the border box.
+                    <br>   <b> Border-image-stretch </b> <br>
+                    Defines how the sides and middle parts of the border image should be tiled or scaled.
+                    <br>   <b> Border-image </b> <br>
+                    The shorthand property for all the border image properties.
+                    <br><br>
+                    
+                   <b> Define the Number and Width of the Columns </b> <br>
+                    There are three new properties that allow you to define the number and width of your columns: <br>
+                   <b> Column-width </b> <br>
+                    Defines the width your columns should be. The browser will then flow the text to fill the space with columns that wide.
+                    <b>Column-count </b> <br>
+                    Defines the number of columns on the page. The browser will then create columns wide enough to fit in the space, but only the number you specify.
+                    <b>Columns </b> <br>
+                    Shorthand property where you can define either the width or number (or both, but that rarely makes sense).
+                    <br><br>
+                   <b> CSS3 Column Gaps and Rules</b> <br>
+                    Gaps and rules are placed between columns in the same multi-column scenario. Gaps will push apart the columns, but rules do not take up any space. If a column rule is wider than its gap, it will overlap adjacent columns. There are five new properties for column rules and gaps:
+                    
+                   <b> Column-gap</b> <br>
+                    Defines the width of the gaps between the columns.
+                    <b> Column-rule-color </b> <br>
+                    Defines the color of the rule.
+                    <b> Column-rule-style </b> <br>
+                    Defines the style of the rule (solid, dotted, double, etc.).
+                    <b> Column-rule-width </b> <br>
+                    Defines the width of the rule.
+                    <b>  Column-rule </b> <br>
+                    A shorthand property defining all three column rule properties at once.
+                    <br><br>
+                  <b>  General Features in CSS3 that aren’t included in CSS2 </b> <br>
+                    
+                   <b> CSS Template layout module and CSS3 Grid positioning module:</b> Creating grids with CSS. <br>
+                   <b> CSS3 Text module:</b> Outline text and even create drop-shadows with CSS. <br>
+                <b> CSS3 Color module:</b> Now with opacity.<br>
+                   <b> Changes to the box model:</b> Including a marquee property that acts like the IE tag.<br>
+                   <b> CSS3 User Interface module:</b> Giving you new cursors, responses to actions, required fields, and even resizing elements.<br>
+                   <b> Media Queries:</b> Media queries allow you more flexibility when defining how a style sheet should be used. For instance, you could define a style sheet that is only for handheld devices that have a viewport larger than 20em.<br>
+                    <b> CSS3 Ruby module:</b> Provides support for languages that use textual ruby to annotate documents.<br>
+                   <b> CSS3 Paged Media module:</b> For even more support for paged media (paper, transparencies, etc).<br>
+                   <b> Generated content:</b> Running headers and footers, footnotes, and other content that is generated programmatically, especially for paged media.<br>
+                   <b> CSS3 Speech module:</b> Changes to aural CSS.<br>
+                    .</p>
+                <p class="date" >March 19, 2020</p>
+        
+    
+        </article>
+    </section>
+
+</body>
+</html>

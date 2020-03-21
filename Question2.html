@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\ttt.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+    <ul>
+        <li><a href="Question1.html">Question1</a></li>
+        <li><a href="Question2.html">Question2</a></li>
+        <li><a href="Question3.html">Question3</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="NGallery.html">Gallery</a></li>
+    </ul>
+    <div id="content"></div>
+    </div>
+    </nav>
+</header>
+
+    <h1>Tic Tac Toe</h1>
+<table>
+    <!--            |       | 
+                ____|_______|____    
+                    |       |
+                ____|_______|____
+                    |       |
+                    |       |
+
+    1)  Create a 3*3 table usnig html
+    3)  Imagine each 9 box to have a specific number. The first box would be box 1, the second box 2 and so forth
+    4)  To achieve a Tic Tac Toe, only the middle box has all border sides visible, which is box 5. 
+    *  Notice the similarity between Box 2 and Box 8, and Box 4 and Box 6.
+    5)  Box 2 and Box 8 both have left and right border visible, so we give them a class
+    6)  Box 4 and Box 6 both have top and bottom border visible, so we give them a class
+    7) Having Done this we can ignore Boxes 1, 3, 7, and 9 because they "share" borders with 2, 4, 5, 8, and 6.
+    -->
+  <tr>
+    <td></td>
+    <td class="lnr"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="tnb"></td>
+    <td class="lnr tnb"></td>
+    <td class="tnb"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="lnr"></td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>
+
+

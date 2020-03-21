@@ -1,0 +1,56 @@
+header
+{
+   
+    position: fixed;
+    left: 500px;
+} 
+
+nav > ul > li {
+    display: inline;
+    padding: 10px 30px;
+    font-size: 20px;
+    
+}
+a {
+text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+h1 {
+  top: 80px;
+    text-align: center;
+    position: relative;
+  }
+  td {
+    width: 100px;
+    height: 100px;
+  }
+  table {
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  .lnr{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .tnb {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }

@@ -1,0 +1,215 @@
+header
+{
+   
+    position: fixed;
+    left: 500px;
+} 
+
+nav > ul > li {
+    display: inline;
+    padding: 10px 30px;
+    font-size: 20px;
+    
+}
+#space   {
+   margin: 100px;
+}
+
+a {
+text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+.Country    {
+    margin-right: 100px;
+    width: 150px;
+    border: 2px solid black;
+}
+ td  {
+margin: 100px;
+}
+h1{
+    width: 100px;
+}
+#c111   {
+    background-color: white;
+    color: white;
+ }
+ #c112   {
+     background-color: green;
+     color: green;
+  }
+  #c113   {
+     background-color: red;
+     color: red;
+  }
+
+
+  #c121   {
+    background-color: yellow;
+    color: yellow;
+ }
+ #c122   {
+     background-color: blue;
+     color: blue;
+  }
+  #c123   {
+     background-color: red;
+     color: red;
+  }
+
+
+  #c131   {
+    background-color: blue;
+    color: blue;
+ }
+ #c132   {
+     background-color: black;
+     color: black;
+  }
+  #c133   {
+     background-color: white;
+     color: white;
+  }
+
+  #c141   {
+    background-color: green;
+    color: green;
+ }
+ #c142   {
+     background-color: yellow;
+     color: yellow;
+  }
+  #c143   {
+     background-color: blue;
+     color: blue;
+  }
+
+
+  #c151   {
+    background-color: black;
+    color: black;
+ }
+ #c152   {
+     background-color: red;
+     color: red;
+  }
+  #c153   {
+     background-color: yellow;
+     color: yellow;
+  }
+
+
+  #c161   {
+    background-color: red;
+    color: red;
+ }
+ #c162   {
+     background-color: white;
+     color: white;
+  }
+  #c163   {
+     background-color: green;
+     color: green;
+  }
+
+
+
+  #c211   {
+    background-color: rgb(155, 14, 14);
+    color: rgb(155, 14, 14);
+ }
+ #c212   {
+     background-color: white;
+     color: white;
+  }
+  #c213   {
+     background-color: rgb(155, 14, 14);
+     color: rgb(155, 14, 14);
+  }
+
+
+  #c221   {
+    background-color: yellow;
+    color: yellow;
+ }
+ #c222   {
+     background-color: green;
+     color: green;
+  }
+  #c223   {
+     background-color: red;
+     color: red;
+  }
+
+
+  #c231   {
+    background-color: rgb(241, 50, 50);
+    color: red;
+ }
+ #c232   {
+     background-color: white;
+     color: white;
+  }
+  #c233   {
+     background-color: rgb(0, 110, 255);
+     color: rgb(0, 110, 255);
+  }
+
+  #c241   {
+    background-color: red;
+    color: red;
+ }
+ #c242   {
+     background-color: white;
+     color: white;
+  }
+  #c243   {
+     background-color: blue;
+     color: blue;
+  }
+
+
+  #c251   {
+    background-color: white;
+    color: white;
+ }
+ #c252   {
+     background-color: blue;
+     color: blue;
+  }
+  #c253   {
+     background-color: red;
+     color: red;
+  }
+
+
+  #c261   {
+    background-color: green;
+    color: green;
+ }
+ #c262   {
+     background-color: white;
+     color: white;
+  }
+  #c263   {
+     background-color: blue;
+     color: blue;
+  }
